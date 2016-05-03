@@ -12,7 +12,7 @@ var fs = require('fs');
 var _ = require('lodash');
 
 var twitterOptions = {
-  handle: '<twitter screen_anme without the @>',
+  handle: '<twitter screen_name without the @>',
   consumer_key: '<token>',
   consumer_secret: '<token>',
   access_token_key: '<token>',
