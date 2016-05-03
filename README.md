@@ -33,7 +33,7 @@ Notes:
 
 2. Start you campaign with an optional message.
 
-    `/start Retreet #flint and follow @flint for a chance to win nothing!`
+    `/start Retweet #flint and follow @flint for a chance to win nothing!`
 
 3. Toggle on/off the feed of tracked tweets to room.
 
