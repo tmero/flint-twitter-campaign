@@ -372,9 +372,6 @@ Twitter.prototype.start = function(message) {
         .then(() => this.setConfig('campaignStart', moment().toDate()))
         .then(() => {
           if(message) {
-            // insert tag at end of message
-            message = message + ' ' + this.tag;
-
             // send status update
             this.sendUpdate(message);
 
@@ -448,7 +445,6 @@ Twitter.prototype.winner = function(count, message) {
 
 Twitter.prototype.stop = function(message) {
   if(message) {
-    message = message + ' ' + this.tag;
     this.sendUpdate(message);
   }
 
@@ -505,9 +501,8 @@ Twitter.prototype.help = function() {
     '\n\n' +
     'Notes:\n' +
     '======\n' +
-    '1) "/start" will automatically append tracked tag to status update if message is supplied\n' +
-    '2) "/restart" will not send status update nor affect stats\n' +
-    '3) "/winner" will default to 1 if not specified\n' +
+    '1) "/restart" will not send status update nor affect stats\n' +
+    '2) "/winner" will default to 1 if not specified\n' +
     '\n\n');
 
 };
