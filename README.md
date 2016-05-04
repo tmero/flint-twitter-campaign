@@ -49,8 +49,9 @@ Notes:
 
 6. Show stats of campaign while it is in progress.
 
-    `/stats output:`
+    `/stats`
 
+###### Output:
 ```
 Twitter Campaign Stats:
 =======================
