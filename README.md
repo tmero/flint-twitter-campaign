@@ -8,7 +8,7 @@ Twitter Campaign Bot:
 /start [message] - Start campaign with optional message
 /restart - Restart tracking/campaign with previous settings
 /stream - Toggle in-room streaming of tracked tweets
-/winner [#] [message] - Select # of winners and message to DM
+/winner [#] [message] - Select # of winners and send DM to each winner
 /stop [message] - End campaign with optional message
 /stats - Show campaign stats
 /help - This message
