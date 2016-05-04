@@ -494,7 +494,7 @@ Twitter.prototype.help = function() {
     '/start [message] - Start campaign with optional message\n' +
     '/restart - Restart tracking/campaign with previous settings\n' +
     '/stream - Toggle in-room streaming of tracked tweets\n' + 
-    '/winner [#] [message] - Select # of winners and message to DM\n' +
+    '/winner [#] [message] - Select # of winners and send DM to each winner\n' +
     '/stop [message] - End campaign with optional message\n' + 
     '/stats - Show campaign stats\n' +
     '/help - This message\n' +
